@@ -1,0 +1,124 @@
+body{
+    font-style: Helvetica;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../asdasd/logo/p_empieza-crear-taller-mecanico-reparar-tu-coche-202071277-1600945966_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    max-width: 100%;
+
+}
+.mecanico{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 15px;
+
+
+
+    
+
+}
+.trabajos{
+    width: 28%;
+    display: inline-block;
+    margin: auto 10px;
+    
+
+
+
+}
+#servicios{
+    
+    padding: 16px;
+    margin: 15px auto;
+    width: 86%;
+    background: url(../asdasd/logo/internal-combustion-engine-work-banner_0.jpg);
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+#logo{
+
+    width: 10%;
+    margin: 0px 10px;
+}
+.nav-item{
+padding-top: 9px;
+}
+#galeria{
+    color: rgb(255, 255, 255);
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke: black 2px;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#pie{
+    background: rgb(24, 23, 23);
+    padding: 1px;
+    margin-top: 2%;
+    height: 100%;
+    width: auto;
+    color: #fff;
+
+  
+    
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+    text-align: center;
+
+}
+.footer-content h3{
+    
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;  
+    font-size: 14px;
+}
+
+
+.footer-bottom{
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}
+#copy{
+
+    text-align: center;
+}
+.my-fixed-item {
+    position: fixed;
+    min-height: 120px;
+    width: 252px;
+    text-align: center;
+    word-wrap: break-word;
+    background-color: aquamarine;
+}
+.icon{
+    position: fixed;
+    bottom: 0vw;
+    right: 0vw;
+    width: 4%;
+    margin: 1%;
+    
+
+}
+
+
