@@ -2,7 +2,7 @@ body{
     font-style: Helvetica;
     width: 100%;
     min-height: 100vh;
-    background-image: url(../asdasd/logo/p_empieza-crear-taller-mecanico-reparar-tu-coche-202071277-1600945966_1.jpg);
+
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -35,7 +35,8 @@ body{
     padding: 16px;
     margin: 15px auto;
     width: 86%;
-    background: url(../asdasd/logo/internal-combustion-engine-work-banner_0.jpg);
+    background: url(../FOTOS/logo/internal-combustion-engine-work-banner_0.jpg);
+    border-radius: 10px;
     text-align: center;
     margin-bottom: 40px;
 
@@ -54,7 +55,13 @@ padding-top: 9px;
     -webkit-text-stroke: black 2px;
     
 }
+.mecanico{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
 
+}
 
 *{
     margin: 0;
@@ -113,6 +120,7 @@ padding-top: 9px;
     word-wrap: break-word;
     background-color: aquamarine;
 }
+
 .icon{
     position: fixed;
     bottom: 0vw;
@@ -122,3 +130,4 @@ padding-top: 9px;
     
 
 }
+

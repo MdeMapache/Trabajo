@@ -2,7 +2,6 @@ body{
     width: 100%;
     font-family: Helvetica, Arial, sans-serif;
     min-height: 100vh;
-    background-image: url(../asdasd/logo/p_empieza-crear-taller-mecanico-reparar-tu-coche-202071277-1600945966_1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -38,13 +37,14 @@ body{
     margin: auto 6%;
     background: rgb(230, 230, 230);
     padding: 15px 10px;
-
+    border-radius: 10px;
 }
 #servicios{
     padding: 16px;
     margin: 15px auto;
     width: 86%;
-    background: url(../asdasd/logo/internal-combustion-engine-work-banner_0.jpg);
+    background: url(../FOTOS/logo/internal-combustion-engine-work-banner_0.jpg);
+    border-radius: 10px;
     text-align: center;
 
 }
@@ -65,6 +65,8 @@ padding-top: 9px;
     margin-right: 90px;
     background: rgb(230, 230, 230);
     padding-top: 10px;
+    padding: 50px;
+    border-radius: 10px;
 }
 .recomen{
     width: 30%;
@@ -162,5 +164,112 @@ padding-top: 9px;
     margin-bottom: 50px;
 }
 #t1{
-    margin-bottom: 5px%;
+    margin-bottom: 5px;
 }
+
+.fa{
+    width: 30px;
+    height: 30px;
+    line-height: 40px;
+    display: block;
+    background: none;
+    color: #ffff;
+
+    
+}
+ /*                       ESTO ES PARA EL MODOD NOCTURNO                       */
+/*--------------------------------------------------------------------------- */
+
+ 
+ body.dark{
+    background: -webkit-linear-gradient(left,#000000,#292728);
+
+ }
+ body.dark nav a{
+    color: #c8c8c8;
+
+ }
+ body.dark nav a:hover{
+    color: #c8c8c8;
+
+  }
+  body.dark .container-fluid{
+      background: black;
+      display: flex;
+  }
+  
+  body.dark #color{
+      color: white;
+  }
+  body.dark #colorbtn{
+      background: white;
+      color: black;
+      
+  }
+  body.dark header{
+      background: black;
+      
+  }
+  body.dark #navcolor{
+      background: black;
+  }
+  body.dark #letrasColor{
+      color: white;
+  }
+ body.dark .contar{
+     background: rgb(44, 42, 42);
+     border-radius: 10px;
+ }
+ body.dark #recomendacion{
+    padding: 50px;
+    background: rgb(44, 42, 42);
+    border-radius: 10px;
+ }
+ 
+    
+  .switch{
+      background: #343d5b;
+      border-radius: 1000px;
+      border: none;
+      position: relative;
+      cursor: pointer;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      outline: none;
+      margin-top: 4px;
+      margin-left: 10px;
+  }
+  .switch::after{
+      content: "";
+      display: block;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      background: #f1f1f1;
+      top: 0;
+      left: 0;
+      right: 0;
+      border-radius: 100px;
+      -webkit-transition: .3s ease all;
+      transition: .3 ease all;
+      
+  }
+  .switch.active{
+      background: orange;
+      color: #000;
+  }
+  .switch.active::after{
+    right: 0;
+    left: unset;
+
+  }
+  .switch span{
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      display: block;
+      background: none;
+      color: #fff;
+  }
+  

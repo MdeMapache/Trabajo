@@ -24,7 +24,8 @@ body{
     padding: 16px;
     margin: 15px auto;
     width: 100%;
-    background: url(../asdasd/logo/internal-combustion-engine-work-banner_0.jpg);
+    background: url(../FOTOS/logo/internal-combustion-engine-work-banner_0.jpg);
+    border-radius: 10px;
     text-align: center;
     margin-bottom: 40px;
 
@@ -147,3 +148,99 @@ padding-top: 9px;
     background-color: aquamarine;
 }
 
+ /*                       ESTO ES PARA EL MODOD NOCTURNO                       */
+/*--------------------------------------------------------------------------- */
+
+ 
+body.dark{
+    background: -webkit-linear-gradient(left,#000000,#292728);
+
+ }
+ body.dark nav a{
+    color: #c8c8c8;
+
+ }
+ body.dark nav a:hover{
+    color: #c8c8c8;
+
+  }
+  body.dark .container-fluid{
+      background: black;
+      display: flex;
+  }
+  body.dark .todo{
+    background: -webkit-linear-gradient(left,#362f2f,#070707);
+  }
+  body.dark #color{
+      color: white;
+  }
+  body.dark #colorbtn{
+      background: white;
+      color: black;
+      
+  }
+  body.dark header{
+      background: black;
+      
+  }
+  body.dark #navcolor{
+      background: black;
+  }
+  
+ body.dark .contar{
+     background: rgb(44, 42, 42);
+     border-radius: 10px;
+ }
+ body.dark #recomendacion{
+    padding: 50px;
+    background: rgb(44, 42, 42);
+    border-radius: 10px;
+ }
+ 
+    
+  .switch{
+      background: #343d5b;
+      border-radius: 1000px;
+      border: none;
+      position: relative;
+      cursor: pointer;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      outline: none;
+      margin-top: 4px;
+      margin-left: 10px;
+  }
+  .switch::after{
+      content: "";
+      display: block;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      background: #f1f1f1;
+      top: 0;
+      left: 0;
+      right: 0;
+      border-radius: 100px;
+      -webkit-transition: .3s ease all;
+      transition: .3 ease all;
+      
+  }
+  .switch.active{
+      background: orange;
+      color: #000;
+  }
+  .switch.active::after{
+    right: 0;
+    left: unset;
+
+  }
+  .switch span{
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      display: block;
+      background: none;
+      color: #fff;
+  }
+  
